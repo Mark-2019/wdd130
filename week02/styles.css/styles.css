@@ -1,0 +1,37 @@
+/* General Paragraph Styling */
+p {
+  padding: 0;
+}
+
+/* Main Content Styling */
+main {
+  max-width: 840px;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* Aside Section Styling */
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
