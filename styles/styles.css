@@ -3,6 +3,24 @@ p {
   padding: 0;
 }
 
+/* Navigation Bar Styling */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+/* Main Heading Styling */
+h1 {
+  color: #2c3e50;
+}
+
 /* Main Content Styling */
 main {
   max-width: 840px;
@@ -11,6 +29,9 @@ main {
 main img {
   width: 150px;
   height: auto;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Aside Section Styling */
