@@ -1,0 +1,94 @@
+/* --- Global Resets & Setup --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+hr {
+  margin: 32px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+/* ==========================================
+   1. HTML TABLE STYLING
+   ========================================== */
+.sample-table {
+  width: 100%;
+  border-collapse: collapse; /* Merges cell borders into clean lines */
+  margin-bottom: 10px;
+}
+
+.sample-table th,
+.sample-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.sample-table th {
+  background-color: #055a05;
+  color: #ffffff;
+}
+
+.sample-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping */
+}
+
+/* ==========================================
+   2. 3-COLUMN CSS GRID STYLING
+   ========================================== */
+.grid-container {
+  display: grid;
+  /* repeat(3, 1fr) creates exactly 3 equal-width columns */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; /* Spacing between grid items */
+}
+
+.card {
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.card h3 {
+  color: #055a05;
+  margin-bottom: 8px;
+}
+
+.grid1-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  background-color: #8cc1ec;
+  padding: 10px;
+}
+
+.grid1-item {
+  background-color: #dcebf8;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

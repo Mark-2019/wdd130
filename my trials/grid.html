@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table vs Grid Demo</title>
+  <!-- Linking the stylesheet in the same folder -->
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+  <main>
+    <section>
+      <h2>1. Standard HTML Table (Data)</h2>
+      <table class="sample-table">
+        <thead>
+          <tr>
+            <th>Trip Name</th>
+            <th>Difficulty</th>
+            <th>Price</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Salmon River Run</td>
+            <td>Intermediate</td>
+            <td>$150</td>
+            <td>4 hours</td>
+          </tr>
+          <tr>
+            <td>Desolation Canyon</td>
+            <td>Advanced</td>
+            <td>$220</td>
+          </tr>
+          <tr>
+            <td>Grand Canyon Expedition</td>
+            <td>Expert</td>
+            <td>$450</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>2. 3-Column CSS Layout Grid (Cards)</h2>
+      <div class="grid-container">
+        <div class="card">
+          <h3>Half Day Trip</h3>
+          <p>Great for beginners looking for a quick splash.</p>
+        </div>
+        <div class="card">
+          <h3>Full Day Trip</h3>
+          <p>Includes lunch and covers 12 miles of whitewater.</p>
+        </div>
+        <div class="card">
+          <h3>Overnight Trip</h3>
+          <p>Camp under the stars with fully guided rafting.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<h2>2. 3-Column CSS mark Layout Grid (Cards)</h2>
+      <div class="grid1-container">
+        <div class="grid1-item">
+          <h3>Half Day Trip</h3>
+          <p>1.</p>
+        </div>
+        <div class="card">
+          <h3>Full Day Trip</h3>
+          <p>2.</p>
+        </div>
+        <div class="card">
+          <h3>Overnight Trip</h3>
+          <p>3.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
